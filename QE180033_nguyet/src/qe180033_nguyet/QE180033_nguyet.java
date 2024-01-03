@@ -2,20 +2,19 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package qe180112_le.doan.hieu;
+package qe180033_nguyet;
 
 /**
  *
- * @author doanh
+ * @author FPTSHOP
  */
-public class QE180112_LEDOANHIEU {
+public class QE180033_nguyet {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("qe180112_le.doan.hieu.QE180112_LEDOANHIEU.main()");
     }
     
 }
