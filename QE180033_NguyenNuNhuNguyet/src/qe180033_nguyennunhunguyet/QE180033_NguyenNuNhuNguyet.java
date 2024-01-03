@@ -2,13 +2,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package qe180033_nguyet;
+package qe180033_nguyennunhunguyet;
 
 /**
  *
  * @author FPTSHOP
  */
-public class QE180033_nguyet {
+public class QE180033_NguyenNuNhuNguyet {
 
     /**
      * @param args the command line arguments
