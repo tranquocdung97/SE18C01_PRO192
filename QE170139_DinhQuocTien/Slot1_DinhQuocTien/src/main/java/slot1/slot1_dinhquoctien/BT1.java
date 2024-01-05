@@ -1,16 +1,16 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-
-package none.qe170139_dinhquoctien;
+package slot1.slot1_dinhquoctien;
 
 /**
  *
  * @author ASUS
  */
-public class QE170139_DinhQuocTien {
+public class BT1 {
 
     public static void main(String[] args) {
-        System.out.println("QE170139_DinhQuocTien");
+        System.out.println("Hello, World!");
     }
 }
