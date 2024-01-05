@@ -7,7 +7,7 @@
  *
  * @author Ho Phi Hung
  */
-public class QE180141_HoPhiHung {
+public class QE180141_HoPhiHung_HelloWorld {
 
     /**
      * @param args the command line arguments
