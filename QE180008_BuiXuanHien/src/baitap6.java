@@ -7,8 +7,9 @@
  *
  * @author XUAN HIEN
  */
-public class baitap5 {
-    public static void main(String[] args) {
-	   System.out.println(2072);
+public class baitap6 {
+     public static void main(String[] args) {
+	   // Display Hello World on the screen
+	   System.out.println("Hello, World!");
    }
 }

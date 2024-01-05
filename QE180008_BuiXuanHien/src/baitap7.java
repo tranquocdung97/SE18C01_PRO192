@@ -7,8 +7,9 @@
  *
  * @author XUAN HIEN
  */
-public class baitap5 {
-    public static void main(String[] args) {
-	   System.out.println(2072);
+public class baitap7 {
+    public static void main(String[] args) 
+   {
+       System.out.println("125 + 206 = "+(125+206));
    }
 }
