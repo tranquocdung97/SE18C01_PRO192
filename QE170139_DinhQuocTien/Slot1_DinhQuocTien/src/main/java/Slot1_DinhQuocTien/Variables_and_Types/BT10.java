@@ -2,15 +2,18 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package slot1.slot1_dinhquoctien;
+package Slot1_DinhQuocTien.Variables_and_Types;
 
 /**
  *
  * @author ASUS
  */
-public class BT4 {
+public class BT10 {
 
     public static void main(String[] args) {
-        System.out.println(313 + 122);
+        long a = 384847522;
+        long b = 988347273;
+        System.out.println(a * b);
+
     }
 }
