@@ -8,7 +8,7 @@ package qe180029_lequoctrieu;
  *
  * @author trieu
  */
-public class QE180029_LEQUOCTRIEU {
+public class bai_1 {
 
     /**
      * @param args the command line arguments
