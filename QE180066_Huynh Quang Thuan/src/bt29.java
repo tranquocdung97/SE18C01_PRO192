@@ -1,4 +1,4 @@
-/*
+    /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
@@ -7,9 +7,11 @@
  *
  * @author HUYNH THAO
  */
-public class bt12 {
+import java.util.Scanner;
+public class bt29 {
     	public static void main(String[] args) {
-		String name = "Codelearn";
-		System.out.println("Hello " + name);
+		Scanner sc = new Scanner(System.in);
+		char c = (char)(sc.next().charAt(0) + 1);
+		System.out.println(c);
 	}
 }

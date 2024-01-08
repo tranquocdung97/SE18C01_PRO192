@@ -7,9 +7,15 @@
  *
  * @author HUYNH THAO
  */
-public class bt12 {
+import java.util.Scanner;
+    
+public class bt21 {
     	public static void main(String[] args) {
-		String name = "Codelearn";
-		System.out.println("Hello " + name);
+		Scanner sc = new Scanner(System.in);
+		String name = sc.next();
+		String address = sc.next();
+		System.out.println("Name: " + name);
+		System.out.println("Address: " + address);
 	}
+    
 }
