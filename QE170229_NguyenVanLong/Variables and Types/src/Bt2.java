@@ -1,5 +1,4 @@
 public class Bt2 { 
- 
     public static void main(String[] args) {
     	int a = 8343;
         int b = 6453;
