@@ -8,8 +8,8 @@ package qe180128_trieuthithuhien;
  *
  * @author TRIEU HIEN
  */
-public class baitap2 {
+public class baitap3 {
     public static void main(String[]args) {
-		System.out.println("Welcome to Codelearn.io!");
+		System.out.println("Name: Codelearn\nDate of birth: 2019");
 	}
 }
