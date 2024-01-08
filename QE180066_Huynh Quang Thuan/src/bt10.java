@@ -7,9 +7,12 @@
  *
  * @author HUYNH THAO
  */
-public class bt4 {
-   public static void main(String[] args) 
-   {
-       System.out.println(400 + 35);
-   }    
+public class bt10 {
+        public static void main(String[] args) {
+    	int a,b;
+        a=2000;
+        b=110;
+        System.out.println("a - b = " + (a - b));
+    }
+    
 }
