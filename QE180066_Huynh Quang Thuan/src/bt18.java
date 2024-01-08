@@ -7,9 +7,10 @@
  *
  * @author HUYNH THAO
  */
-public class bt12 {
+public class bt18 {
     	public static void main(String[] args) {
-		String name = "Codelearn";
-		System.out.println("Hello " + name);
+		int a = 384847522;
+		int b = 988347273;
+		System.out.println((long) a * b);
 	}
 }

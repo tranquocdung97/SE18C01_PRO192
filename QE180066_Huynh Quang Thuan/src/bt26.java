@@ -7,9 +7,13 @@
  *
  * @author HUYNH THAO
  */
-public class bt12 {
+import java.util.Scanner;
+
+public class bt26 {
     	public static void main(String[] args) {
-		String name = "Codelearn";
-		System.out.println("Hello " + name);
+		Scanner sc = new Scanner(System.in);
+		String name = sc.next();
+		int age = sc.nextInt();
+		System.out.println("In 15 years, age of " + name + " will be " + (age + 15));
 	}
 }

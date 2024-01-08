@@ -7,9 +7,14 @@
  *
  * @author HUYNH THAO
  */
-public class bt12 {
+import java.util.Scanner;
+
+public class bt28 {
     	public static void main(String[] args) {
-		String name = "Codelearn";
-		System.out.println("Hello " + name);
+		Scanner sc = new Scanner(System.in);
+		double r = sc.nextDouble();
+		double pi = 3.14;
+		System.out.println("Circumference = " + (2 * pi * r));
 	}
+    
 }

@@ -7,9 +7,16 @@
  *
  * @author HUYNH THAO
  */
-public class bt12 {
+import java.util.Scanner;
+
+public class bt27 {
     	public static void main(String[] args) {
-		String name = "Codelearn";
-		System.out.println("Hello " + name);
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		int c = a;
+		a = b;
+		b = c;
+		System.out.println("after swapping, a = " + a + ", b = " + b);
 	}
 }

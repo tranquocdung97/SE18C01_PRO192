@@ -7,9 +7,10 @@
  *
  * @author HUYNH THAO
  */
-public class bt12 {
+public class bt16 {
     	public static void main(String[] args) {
-		String name = "Codelearn";
-		System.out.println("Hello " + name);
+		char c = 'x';
+		System.out.println(c);
 	}
 }
+    

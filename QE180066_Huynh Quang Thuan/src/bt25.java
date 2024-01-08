@@ -7,14 +7,17 @@
  *
  * @author HUYNH THAO
  */
-public class bt11 {
+import java.util.Scanner;
+public class bt25 {
     	public static void main(String[] args) {
-		int a = 6;
-		int b = 2;
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
+		int b = sc.nextInt();
 		System.out.println("a + b = " + (a + b));
 		System.out.println("a - b = " + (a - b));
 		System.out.println("a * b = " + (a * b));
 		System.out.println("a / b = " + (a / b));
+		System.out.println("a % b = " + (a % b));
 	}
     
 }
