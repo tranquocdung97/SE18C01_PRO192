@@ -8,12 +8,14 @@ package qe180128_trieuthithuhien;
  *
  * @author TRIEU HIEN
  */
-public class bait {
+public class bait8 {
     public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-        String name = sc.next();
-        String address = sc.next();
-        System.out.println("Name: " + name);
-        System.out.println("Address: " + address);
-	}
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = a;
+        a = b;
+        b = c;
+        System.out.println("after swapping, a = " + a + ", b = " + b);
+    }
 }
