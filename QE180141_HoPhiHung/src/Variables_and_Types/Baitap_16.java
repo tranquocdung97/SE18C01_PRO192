@@ -8,7 +8,7 @@ package Variables_and_Types;
  *
  * @author Ho Phi Hung
  */
-public class bai16 {
+public class Baitap_16 {
     public static void main(String[] args) {
         char c='x';
         System.out.println(c);

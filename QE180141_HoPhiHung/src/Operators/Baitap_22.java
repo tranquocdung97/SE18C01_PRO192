@@ -9,7 +9,7 @@ package Operators;
  * @author Ho Phi Hung
  */
 import java.util.Scanner;
-public class bai22 {
+public class Baitap_22 {
     public static void main(String[] args) {
 	Scanner s = new Scanner(System.in);
         String n = s.next() , a = s.next();

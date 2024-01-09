@@ -8,7 +8,7 @@ package Variables_and_Types;
  *
  * @author Ho Phi Hung
  */
-public class bai19 {
+public class Baitap_19 {
     public static void main(String[] args) {
         boolean b=true;
         System.out.println(b);

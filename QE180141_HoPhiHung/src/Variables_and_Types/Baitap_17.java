@@ -8,7 +8,7 @@ package qe180033_nguyennunhunguyet;
  *
  * @author Ho Phi Hung
  */
-public class bai17 {
+public class Baitap_17 {
     public static void main(String[] args) {
         char d = 'a' + 3;
         System.out.println('d');

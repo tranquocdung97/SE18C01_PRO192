@@ -8,7 +8,7 @@ package qe180033_nguyennunhunguyet;
  *
  * @author Ho Phi Hung
  */
-public class bai18 {
+public class Baitap_18 {
     public static void main(String[] args) {
         long a=384847522, b=988347273;
         System.out.println(a*b);

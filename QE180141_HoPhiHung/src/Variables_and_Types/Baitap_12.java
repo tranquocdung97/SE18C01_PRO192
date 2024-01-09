@@ -8,7 +8,7 @@ package Variables_and_Types;
  *
  * @author Ho Phi Hung
  */
-public class bai12 {
+public class Baitap_12 {
     public static void main(String[] args) {
 	String name = "Codelearn";
 	System.out.println("Hello " + name);

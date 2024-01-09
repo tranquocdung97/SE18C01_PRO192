@@ -8,7 +8,7 @@ package Variables_and_Types;
  *
  * @author Ho Phi Hung
  */
-public class bai10 {
+public class Baitap_10 {
     public static void main(String[] args) {
         int a=8343 , b=6453 ;
     	System.out.println("a - b = "+(a-b));

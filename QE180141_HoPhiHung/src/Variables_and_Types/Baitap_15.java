@@ -8,7 +8,7 @@ package Variables_and_Types;
  *
  * @author Ho Phi Hung
  */
-public class bai15 {
+public class Baitap_15 {
     public static void main(String[] args) {	
         System.out.println("Area = " + 7.5 * 3.8);
     }
