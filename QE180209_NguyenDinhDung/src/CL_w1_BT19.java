@@ -7,8 +7,12 @@
  *
  * @author Administrator
  */
-public class BT1 {
-    public static void main(String[]args) {
-          System.out.println("Hello, World!");
+public class CL_w1_BT19 
+{
+    public static void main(String[] args) {
+		int a=9;
+        int c=12;
+        boolean b=c>a;
+		System.out.println(b);
 	}
 }
