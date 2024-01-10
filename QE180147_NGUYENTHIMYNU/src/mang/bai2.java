@@ -10,16 +10,21 @@ import java.util.Scanner;
  *
  * @author ASUS
  */
-public class bai1 {
+public class bai2 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int[] a = new int[10];
-        for (int i = 0; i < 10; i++) {
-            a[i] = sc.nextInt();
+        int n = sc.nextInt();
+        int[] arr = new int[n];
+        for (int i = 0; i < n; i++) {
+            arr[i] = sc.nextInt();
         }
-        for (int i = 0; i < 10; i++) {
-            System.out.print(a[i] + " ");
+        int max = arr[0];
+        for (int i = 1; i < n; i++) {
+            if (arr[i] > max) {
+                max = arr[i];
+            }
         }
+        System.out.print(max);
     }
 }
