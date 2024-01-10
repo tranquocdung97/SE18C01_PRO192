@@ -2,11 +2,11 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package OOP.Static_variables_and_methods;
+package OOP.Classes_and_Objects;
 
 import java.util.Scanner;
 
-public class Entry {
+public class BT6 {
 	public static void main(String[]args) {
 		Rectangle r1 = new Rectangle();
 		r1.getInformation();
