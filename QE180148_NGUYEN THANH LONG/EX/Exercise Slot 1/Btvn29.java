@@ -4,10 +4,16 @@
  */
 package btvn1;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Admin
  */
 public class Btvn29 {
-    
+    public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		char c = (char)(sc.next().charAt(0)+1);
+        System.out.println(c);
+	}
 }
