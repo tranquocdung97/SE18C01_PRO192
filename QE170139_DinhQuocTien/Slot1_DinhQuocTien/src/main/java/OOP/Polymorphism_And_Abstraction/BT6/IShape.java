@@ -2,12 +2,15 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package mang;
+package OOP.Polymorphism_And_Abstraction.BT6;
 
 /**
  *
  * @author ASUS
  */
-public class bai1 {
-    
+public interface IShape {
+
+    double getArea();
+
+    double getPerimeter();
 }
