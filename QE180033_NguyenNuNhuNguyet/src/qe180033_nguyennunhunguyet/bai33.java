@@ -9,10 +9,15 @@ package qe180033_nguyennunhunguyet;
  * @author FPTSHOP
  */
 import java.util.Scanner;
-public class bai31 {
+public class bai33 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt(), b=sc.nextInt();
-        System.out.println(a>b);
+    Scanner sc = new Scanner(System.in);
+    int n = sc.nextInt();
+    if(n>0)
+        System.out.println("n is a positive number");
+    if(n<0)
+        System.out.println("n is a negative number");
+    if(n==0) 
+        System.out.println("n is equal to 0");
 	}
 }
