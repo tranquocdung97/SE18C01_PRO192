@@ -9,10 +9,13 @@ package qe180033_nguyennunhunguyet;
  * @author FPTSHOP
  */
 import java.util.Scanner;
-public class bai31 {
+public class bai75 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt(), b=sc.nextInt();
-        System.out.println(a>b);
-	}
+        String s = sc.next(), u="";
+        for (int i = s.length() - 1; i >= 0; i--) {
+            u += s.charAt(i);
+        }
+        System.out.print(u);
+    }
 }
