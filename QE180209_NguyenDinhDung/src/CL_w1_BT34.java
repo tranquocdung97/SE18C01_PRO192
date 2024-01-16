@@ -8,15 +8,16 @@ import java.util.Scanner;
  *
  * @author Administrator
  */
-public class CL_w1_BT28 {
+public class CL_w1_BT34 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
-        int c = a;
-        a = b;
-        b = c;
-        System.out.println("after swapping, a = " + a + ", b = " + b);
+        if (a >= b) {
+            System.out.println("a is greater than or equal to b");
+        } else {
+            System.out.println("a is smaller than b");
+        }
     }
 }

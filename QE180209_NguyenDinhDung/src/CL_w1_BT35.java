@@ -8,15 +8,16 @@ import java.util.Scanner;
  *
  * @author Administrator
  */
-public class CL_w1_BT28 {
+public class CL_w1_BT35 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        int b = sc.nextInt();
-        int c = a;
-        a = b;
-        b = c;
-        System.out.println("after swapping, a = " + a + ", b = " + b);
+        String a = sc.next();
+        String b = sc.next();
+        if (a.equals(b)) {
+            System.out.println("two people have the same name");
+        } else {
+            System.out.println("two people don't have the same name");
+        }
     }
 }

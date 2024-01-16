@@ -8,15 +8,15 @@ import java.util.Scanner;
  *
  * @author Administrator
  */
-public class CL_w1_BT28 {
+public class CL_w1_BT32 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        int b = sc.nextInt();
-        int c = a;
-        a = b;
-        b = c;
-        System.out.println("after swapping, a = " + a + ", b = " + b);
+        int n = sc.nextInt();
+        if (n % 2 == 0) {
+            System.out.println("n is an even number");
+        } else {
+            System.out.println("n is an odd number");
+        }
     }
 }

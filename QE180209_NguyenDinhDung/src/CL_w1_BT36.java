@@ -8,15 +8,16 @@ import java.util.Scanner;
  *
  * @author Administrator
  */
-public class CL_w1_BT28 {
+public class CL_w1_BT36 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
-        int c = a;
-        a = b;
-        b = c;
-        System.out.println("after swapping, a = " + a + ", b = " + b);
+        if (a == 0 || b == 0) {
+            System.out.println("a is equal to 0 or b is equal to 0");
+        } else {
+            System.out.println("a is not equal to 0 and b is not equal to 0");
+        }
     }
 }
