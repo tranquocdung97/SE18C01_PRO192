@@ -7,8 +7,13 @@
 <!-- the Compile on Save feature is turned off for the project. -->
 <!-- You can turn off the Compile on Save (or Deploy on Save) setting -->
 <!-- in the project's Project Properties dialog box.-->
+<<<<<<<< HEAD:build.xml
+<project name="QE180029_LEQUOCTRIEU" default="default" basedir=".">
+    <description>Builds, tests, and runs the project QE180029_LEQUOCTRIEU.</description>
+========
 <project name="bai_tap_2" default="default" basedir=".">
     <description>Builds, tests, and runs the project bai_tap_2.</description>
+>>>>>>>> d85a27e046ce01493c8f41440de7dc35b1633b7f:QE180097-NGUYEN QUOC DAT/bai_tap_2/build.xml
     <import file="nbproject/build-impl.xml"/>
     <!--
 
@@ -58,7 +63,11 @@
 
     An example of overriding the target for project execution could look like this:
 
+<<<<<<<< HEAD:build.xml
+        <target name="run" depends="QE180029_LEQUOCTRIEU-impl.jar">
+========
         <target name="run" depends="bai_tap_2-impl.jar">
+>>>>>>>> d85a27e046ce01493c8f41440de7dc35b1633b7f:QE180097-NGUYEN QUOC DAT/bai_tap_2/build.xml
             <exec dir="bin" executable="launcher.exe">
                 <arg file="${dist.jar}"/>
             </exec>

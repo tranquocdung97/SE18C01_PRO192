@@ -3,20 +3,21 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 import java.util.Scanner;
+
 /**
  *
  * @author Administrator
  */
-public class CL_w1_BT26 
-{
+public class CL_w1_BT26 {
+
     public static void main(String[] args) {
-		Scanner sc =new Scanner(System.in);
-        int a =sc.nextInt();
-        int b =sc.nextInt();
-        System. out.println("a + b = "+(a+b));
-        System. out.println("a - b = "+(a-b));
-        System. out.println("a * b = "+(a*b));
-        System. out.println("a / b = "+(a/b));
-        System. out.println("a % b = "+(a%b));
-	}
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        System.out.println("a + b = " + (a + b));
+        System.out.println("a - b = " + (a - b));
+        System.out.println("a * b = " + (a * b));
+        System.out.println("a / b = " + (a / b));
+        System.out.println("a % b = " + (a % b));
+    }
 }
