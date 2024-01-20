@@ -2,15 +2,15 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package qe180033_nguyennunhunguyet;
+package Variables_and_Types_;
 
 /**
  *
  * @author Ho Phi Hung
  */
-public class Baitap_18 {
+public class Baitap_14 {
     public static void main(String[] args) {
-        long a=384847522, b=988347273;
-        System.out.println(a*b);
+	double a=10.5 , b=7;
+        System.out.println("a / b = "+ a/b);
     }
 }

@@ -2,16 +2,15 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Variables_and_Types;
+package Variables_and_Types_;
 
 /**
  *
  * @author Ho Phi Hung
  */
-public class Baitap_13 {
+public class Baitap_9 {
     public static void main(String[] args) {
-        String name="Codelearn";int dob=2019;
-        System.out.println("Name: " + name);
-        System.out.println("Date of birth: " + dob);
-    }
+		int a= 254, b= 343;
+		System.out.println("a + b = " + (a + b));
+	}
 }
