@@ -3,7 +3,11 @@
     <type>org.netbeans.modules.java.j2seproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/j2se-project/3">
+<<<<<<<< HEAD:nbproject/project.xml
+            <name>QE180029_LEQUOCTRIEU</name>
+========
             <name>Method</name>
+>>>>>>>> d85a27e046ce01493c8f41440de7dc35b1633b7f:QE170229_NguyenVanLong/Method/nbproject/project.xml
             <source-roots>
                 <root id="src.dir"/>
             </source-roots>
