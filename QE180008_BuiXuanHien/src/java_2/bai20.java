@@ -35,7 +35,7 @@ class Person {
     }
 }
 
-class Student2 extends Person {
+class Student2 extends bai22 {
 
     private double gpa;
 
