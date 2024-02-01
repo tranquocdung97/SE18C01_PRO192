@@ -1,0 +1,21 @@
+package QE180149_DuongThao.OOP;
+
+public class BT5 {
+
+    public class Student {
+
+        private String name;
+        private int age;
+        private String gender;
+        private double gpa;
+
+        public Student(String name, int age, String gender, double gpa) {
+            this.name = name;
+            this.age = age;
+            this.gender = gender;
+            this.gpa = gpa;
+        }
+
+    }
+
+}
