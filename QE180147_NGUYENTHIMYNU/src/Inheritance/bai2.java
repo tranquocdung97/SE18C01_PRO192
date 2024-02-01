@@ -4,12 +4,15 @@
  */
 package Inheritance;
 
-class Person {
+class Person1 {
 
     private String name;
     private String gender;
 
-    public Person(String name, String gender) {
+    public Person1() {
+    }
+
+    public Person1(String name, String gender) {
         this.name = name;
         this.gender = gender;
     }
@@ -36,11 +39,14 @@ class Person {
     }
 }
 
-class Student extends Person {
+class Student1 extends Person1 {
 
     private int salary;
 
-    public Student(String name, String gender, int salary) {
+    public Student1() {
+    }
+
+    public Student1(String name, String gender, int salary) {
         super(name, gender);
         this.salary = salary;
     }
@@ -53,6 +59,7 @@ class Student extends Person {
         this.salary = salary;
     }
 
+    @Override
     public void display() {
         super.display();
         System.out.println("Salary: " + salary);
@@ -62,7 +69,7 @@ class Student extends Person {
 public class bai2 {
 
     public static void main(String[] args) {
-        Student s = new Student("Trung", "Male", 1700);
+        Student1 s = new Student1("Trung", "Male", 1700);
         s.display();
     }
 }
