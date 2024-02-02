@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
-    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="1">
+        <file>
+            <url>src/java_2/bai22.java</url>
+            <bookmark id="1">
+                <name/>
+                <line>103</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-<<<<<<< HEAD
-            <file>file:/D:/SE18C01_PRO192/QE180008_BuiXuanHien/src/bai24.java</file>
-            <file>file:/D:/SE18C01_PRO192/QE180008_BuiXuanHien/src/java_2/bai1.java</file>
-            <file>file:/D:/SE18C01_PRO192/QE180008_BuiXuanHien/src/packages2/bai80.java</file>
-=======
             <file>file:/C:/PRO192/SE18C01_PRO192/QE180008_BuiXuanHien/src/dealine/bai1.java</file>
+            <file>file:/C:/PRO192/SE18C01_PRO192/QE180008_BuiXuanHien/src/dealine/bai3.java</file>
             <file>file:/C:/PRO192/SE18C01_PRO192/QE180008_BuiXuanHien/src/java_2/bai20.java</file>
+            <file>file:/C:/PRO192/SE18C01_PRO192/QE180008_BuiXuanHien/src/java_2/bai24.java</file>
             <file>file:/C:/PRO192/SE18C01_PRO192/QE180008_BuiXuanHien/src/java_2/bai21.java</file>
+            <file>file:/C:/PRO192/SE18C01_PRO192/QE180008_BuiXuanHien/src/java_2/bai23.java</file>
             <file>file:/C:/PRO192/SE18C01_PRO192/QE180008_BuiXuanHien/src/dealine/bai2.java</file>
             <file>file:/C:/PRO192/SE18C01_PRO192/QE180008_BuiXuanHien/src/java_2/bai22.java</file>
->>>>>>> 918d81bbbf56311612e49ab75f11cd074b0982d1
         </group>
     </open-files>
 </project-private>
