@@ -49,61 +49,63 @@ class Person {
         System.out.println("Age: " + age);
         System.out.println("Address: " + address);
     }
+}
 
-    class Student7 extends Person {
+class Student extends Person {
 
-        private double gpa;
+    private double gpa;
 
-        public Student7(String name, int age, String address, double gpa) {
-            super(name, age, address);
-            this.gpa = gpa;
-        }
-
-        public double getGpa() {
-            return gpa;
-        }
-
-        public void setGpa(double gpa) {
-            this.gpa = gpa;
-        }
-
-        @SuppressWarnings("override")
-        public void display() {
-            super.display();
-            System.out.println("GPA: " + gpa);
-        }
+    public Student(String name, int age, String address, double gpa) {
+        super(name, age, address);
+        this.gpa = gpa;
     }
 
-    class Teacher3 extends Person {
-
-        private int salary;
-
-        public Teacher3(String name, int age, String address, int salary) {
-            super(name, age, address);
-            this.salary = salary;
-        }
-
-        public int getSalary() {
-            return salary;
-        }
-
-        public void setSalary(int salary) {
-            this.salary = salary;
-        }
-
-        @SuppressWarnings("override")
-        public void display() {
-            super.display();
-            System.out.println("Salary: " + salary);
-        }
+    public double getGpa() {
+        return gpa;
     }
 
-    public class bai22 {
-        public static void main(String[] args) {
-            Student s = new Student("Khanh", 23, "Ha Noi", 9.0);
-            s.display();
-            System.out.println();
-            Teacher t = new Teacher("Tung", 34, "Ha Noi", 1700);
-            t.display();
-        }
+    public void setGpa(double gpa) {
+        this.gpa = gpa;
     }
+
+    @SuppressWarnings("override")
+    public void display() {
+        super.display();
+        System.out.println("GPA: " + gpa);
+    }
+}
+
+class Teacher extends Person {
+
+    private int salary;
+
+    public Teacher(String name, int age, String address, int salary) {
+        super(name, age, address);
+        this.salary = salary;
+    }
+
+    public int getSalary() {
+        return salary;
+    }
+
+    public void setSalary(int salary) {
+        this.salary = salary;
+    }
+
+    @SuppressWarnings("override")
+    public void display() {
+        super.display();
+        System.out.println("Salary: " + salary);
+    }
+}
+
+public class bai22 {
+
+    public static void main(String[] args) {
+//        Student s = new Student("Khanh", 23, "Ha Noi", 9.0);
+//        s.display();
+//        System.out.println();
+//        Teacher t = new Teacher("Tung", 34, "Ha Noi", 1700);
+//        t.display();
+    }
+}
