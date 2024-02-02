@@ -3,16 +3,15 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package baitapthaygiao;
-import java.util.ArrayList;
+   import java.util.ArrayList;
 import java.util.Scanner;
+
 /**
  *
  * @author ASUS
  */
-public class bai1 {
-   
-
-
+public class checksum_1 {
+ 
 
 	    public static class GTIN {
 
@@ -35,7 +34,7 @@ public class bai1 {
 	        	   a.add((int)(n%10));
 	        	   n/=10;
 	            }
-	           if (a.size()%2==0)
+	            if (a.size()-1%2==0 && a.size() %2 ==0)
 	           {
 	            for (int i = a.size()-1 ; i >= 0; i--) {
 	                if (i % 2 == 0) {
@@ -79,3 +78,4 @@ public class bai1 {
 	        }
 	    }
 	}
+
