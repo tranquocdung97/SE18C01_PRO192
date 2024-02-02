@@ -4,7 +4,6 @@
  */
 package dealine;
 
-
 class bai3 {
 
     public static int CFP(int[] a) {
