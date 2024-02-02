@@ -4,7 +4,7 @@
  */
 package Week_3;
 
-public class Student {
+ class Student {
 
     private String name;
     private char gender;
@@ -48,7 +48,6 @@ public class Student {
  * @author Administrator
  */
 public class CL_w3_BT19 {
-
     public static void main(String[] args) {
         Student s1 = new Student();
         s1.display();
