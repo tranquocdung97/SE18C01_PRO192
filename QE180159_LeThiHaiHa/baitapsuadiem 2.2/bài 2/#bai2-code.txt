@@ -1,0 +1,40 @@
+#bai2-code
+String clockRadian(String time) {
+    String[] parts = time.split(":");
+        int hour = Integer.parseInt(parts[0]);
+        int minute = Integer.parseInt(parts[1]);
+
+        double angleInDegrees = Math.abs(30*hour - 5.5*minute);
+
+        if(angleInDegrees > 180){
+            angleInDegrees = 360 - angleInDegrees;
+        }
+
+        int numerator = (int) (angleInDegrees*100);
+        int denominator = 18000;
+
+        int gcd = gcd(numerator, denominator);
+        
+        numerator = numerator / gcd;
+        denominator = denominator/gcd;
+
+        if(numerator == 0){
+            return "0";
+        }else if(numerator == 1 && denominator == 1){
+        return "pi";
+        }else if(numerator == 1){
+        return "pi/"+ denominator;
+        }else{
+            return numerator+"pi/"+ denominator;
+        }
+}
+
+int gcd(int a, int b) {
+    
+    while (b > 0) {
+            int temp = b;
+            b = a % b;
+            a = temp;
+        }
+     return a;    
+}

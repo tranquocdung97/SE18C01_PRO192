@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /Exercise/nbproject/private/
 =======
 <<<<<<< HEAD
@@ -115,3 +116,9 @@
 /QE170229_NguyenVanLong/Encapsulation/build/
 >>>>>>> ce265c451fb84354fde846fd15c35c8523ff6a04
 /test_1/nbproject/private/
+=======
+*/target/
+*/private/
+*/build/
+*.class
+>>>>>>> 717dbc12dff439796b0fed0ac0e759ccc8d50834
