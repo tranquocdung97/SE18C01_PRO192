@@ -1,0 +1,27 @@
+#bai3-code
+int continuedFraction(int[] a) {
+    int numerator = 1;
+    int denominator = a[a.length - 1];
+
+    for (int i = a.length - 2; i >= 0; i--) {
+        int temp = numerator;
+        numerator = denominator;
+        denominator = a[i] * denominator + temp;
+    }
+
+    int gcd = gcd(numerator, denominator);
+    numerator /= gcd;
+    denominator /= gcd;
+
+    return numerator * denominator;
+}
+
+private static int gcd(int a, int b) {
+    while (b != 0) {
+        int temp = b;
+        b = a % b;
+        a = temp;
+    }
+    return a;
+}
+
