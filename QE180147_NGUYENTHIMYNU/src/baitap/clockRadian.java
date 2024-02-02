@@ -33,7 +33,8 @@ public class clockRadian {
             int gcd = gcd((int) angle, 180);
             int numerator = (int) (angle / gcd);
             int denominator = 180 / gcd;
-
+             if(angle>180) angle=360-angle;
+                angle=angle*2;
             if (denominator == 1) {
                 if (numerator == 1) {
                     return "pi";
