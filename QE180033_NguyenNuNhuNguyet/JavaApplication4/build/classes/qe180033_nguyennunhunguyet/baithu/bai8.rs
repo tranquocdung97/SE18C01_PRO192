@@ -1,2 +1,0 @@
-bai8
-Student
