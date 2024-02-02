@@ -1,4 +1,4 @@
-/QE170229_NguyenVanLong/Static variables and methods/nbproject/private/
-/QE170229_NguyenVanLong/Static variables and methods/build/
-/QE170229_NguyenVanLong/Encapsulation/nbproject/private/
-/QE170229_NguyenVanLong/Encapsulation/build/
+*/target/
+*/private/
+*/build/
+*.class
