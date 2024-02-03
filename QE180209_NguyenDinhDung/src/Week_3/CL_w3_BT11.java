@@ -3,7 +3,6 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package Week_3;
-
 class Student {
 
     String name;
@@ -25,7 +24,7 @@ class Student {
  * @author Administrator
  */
 public class CL_w3_BT11 {
-
+    
     public static void main(String[] args) {
         Student[] students = new Student[3];
 

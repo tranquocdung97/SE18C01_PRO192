@@ -4,9 +4,9 @@
  */
 package Week_3;
 
-public class Student {
+ class Student {
 
-    private String name;
+    private  String name;
     private int age;
     private String gender;
     private double gpa;
