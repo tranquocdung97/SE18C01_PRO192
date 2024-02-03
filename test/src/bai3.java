@@ -22,11 +22,15 @@ public class bai3 {
     }
     
     private static int continuedFraction(int[] a){
-        int tu = 1;
+        int n = a.length;
+        int tu = a[n-1];
         int mau=1;
-        for(int n = a.length;0<n;n--){
-            tu = a[n]*a[n-1] + mau;
-            mau = a[n];
+        for(int i = n -2;i>=0;i--){
+            int tu1 = a[i]*tu + mau;
+            int mau1 = tu;
+            
+            tu =tu1;
+            mau = mau1;
         }
         int uoc = findGCD(tu,mau);
         int kq = (tu/uoc)*(mau/uoc);
