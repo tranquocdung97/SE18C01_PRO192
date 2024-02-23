@@ -45,10 +45,9 @@ public class Java {
         List<Integer> sol = new ArrayList<>();
         //nut va do sau 
         for (int i = 0; i < nodes.size(); i += 2) {
-            //
             int countN = Integer.parseInt(nodes.get(i + 1));
             if (countN == dosaunhat) {
-            sol.add(Integer.parseInt(nodes.get(i)));
+                sol.add(Integer.parseInt(nodes.get(i)));
             }
         }
         int sum = 0;
