@@ -8,11 +8,11 @@ package qe180033_nguyennunhunguyet.baithu;
  *
  * @author FPTSHOP
  */
-public interface bai31 {
+ interface IEmployee {
 	int calculateSalary();
 	String getName();
 }
- abstract class Employee implements bai31 {
+abstract class Employee implements IEmployee {
 	private String name;
 	private int paymentPerHour;
 
@@ -21,8 +21,7 @@ public interface bai31 {
 		this.paymentPerHour = paymentPerHour;
 	}
 
-
-        @Override
+	@Override
 	public String getName() {
 		return name;
 	}
@@ -39,8 +38,8 @@ public interface bai31 {
 		this.paymentPerHour = paymentPerHour;
 	}
 }
- class PartTimeEmployee extends Employee {
-	private int workingHours;
+class PartTimeEmployee extends Employee {
+	private final int workingHours;
 
 	public PartTimeEmployee(String name, int paymentPerHour, int workingHours) {
 		super(name, paymentPerHour);
@@ -53,7 +52,7 @@ public interface bai31 {
 		return workingHours * getPaymentPerHour();
 	}
 }
- class FullTimeEmployee extends Employee {
+class FullTimeEmployee extends Employee {
 	public FullTimeEmployee(String name, int paymentPerHour) {
 		super(name, paymentPerHour);
 	}
@@ -61,7 +60,17 @@ public interface bai31 {
 	
         @Override
 	public int calculateSalary() {
-		return 8 * getPaymentPerHour();
+		return getPaymentPerHour() * 8;
 	}
 }
+public class bai31 {
+	public static void main(String[] args) {
+		IEmployee employee1 = new PartTimeEmployee("Trung", 45000, 7);
+		System.out.println("Name: " + employee1.getName());
+		System.out.println("Salary per day: " + employee1.calculateSalary());
 
+		IEmployee employee2 = new FullTimeEmployee("Linh", 65000);
+		System.out.println("Name: " + employee2.getName());
+		System.out.println("Salary per day: " + employee2.calculateSalary());
+	}
+}

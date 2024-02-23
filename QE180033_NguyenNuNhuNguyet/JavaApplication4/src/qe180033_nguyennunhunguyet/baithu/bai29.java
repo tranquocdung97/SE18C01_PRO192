@@ -8,7 +8,7 @@ package qe180033_nguyennunhunguyet.baithu;
  *
  * @author FPTSHOP
  */
-public abstract class bai29{
+ abstract class Person{
     private String name;
     private String address;
 
@@ -17,7 +17,7 @@ public abstract class bai29{
      * @param name
      * @param address
      */
-    public bai29 (String name , String address){
+    public Person (String name , String address){
         this.name = name ;
         this.address = address;
     }
@@ -54,7 +54,7 @@ public abstract class bai29{
 		System.out.println("Employee salary: " + salary);
 	}	
 }
- class Customer extends bai29 {
+ class Customer extends Person {
 	private final int balance;
 
 	public Customer(String name, String address, int balance) {
@@ -70,4 +70,11 @@ public abstract class bai29{
 		System.out.println("Customer balance: " + balance);
 	}
 }
-
+public class bai29 {
+	public static void main(String[] args) {
+		Person person1 = new Employee("Trung", "HN", 3300);
+		Person person2 = new Customer("Linh", "BN", 10400);
+		person1.display();
+		person2.display();
+	}
+}
