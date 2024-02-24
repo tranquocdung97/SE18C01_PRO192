@@ -2,9 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package PolymorphismandAbstraction and abstraction;
-
-import c.Person;
+package PolymorphismandAbstraction;
 
 /**
  *
@@ -37,14 +35,6 @@ public abstract class Person {
 		this.address = address;
 	}
 }
-class test1 {
-    public static void main(String[] args) {
-		c.Employee person1 = new c.Employee("Trung", "HN", 3300);
-		c.Customer person2 = new c.Customer("Linh", "BN", 10400);
-		person1.display();
-		person2.display();
-	}
-}
 public class Customer extends Person {
 	private int balance;
 
@@ -75,4 +65,11 @@ public class Employee extends Person {
 		System.out.println("Employee salary: " + salary);
 	}	
 }
-    
+public class bai29 {
+    public static void main(String[] args) {
+		Person person1 = new Employee("Trung", "HN", 3300);
+		Person person2 = new Customer("Linh", "BN", 10400);
+		person1.display();
+		person2.display();
+	}
+}
