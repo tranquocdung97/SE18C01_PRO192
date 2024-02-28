@@ -4,7 +4,8 @@
  */
 package Week_3;
 
-public class Employee {
+
+class Employee {
 
     private int id;
     private String firstName;
