@@ -1,4 +1,6 @@
+
 class Math {
+
     public static double PI = 3.14;
 
     public static int abs(int x) {
@@ -31,6 +33,7 @@ class Math {
 }
 
 class Entry {
+
     public static void main(String[] args) {
         System.out.println(Math.PI);
         System.out.println(Math.abs(-2));
