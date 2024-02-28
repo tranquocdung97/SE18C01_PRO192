@@ -1,4 +1,6 @@
+
 class Circle {
+
     private double radius;
 
     public Circle(double radius) {
@@ -15,6 +17,7 @@ class Circle {
 }
 
 class Entry4 {
+
     public static void main(String[] args) {
         Circle c = new Circle(7);
         System.out.println(c.getArea());

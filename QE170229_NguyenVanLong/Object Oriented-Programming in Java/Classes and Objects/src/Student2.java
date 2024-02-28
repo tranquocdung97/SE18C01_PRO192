@@ -1,4 +1,6 @@
+
 class Student2 {
+
     private String name;
     private int age;
 
@@ -6,7 +8,6 @@ class Student2 {
         this.name = name;
         this.age = age;
     }
-
 
     public void display() {
         System.out.println("Name: " + name);

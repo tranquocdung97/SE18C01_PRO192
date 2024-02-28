@@ -1,4 +1,6 @@
+
 public class Student3 {
+
     private String name;
     private int age;
 
@@ -11,6 +13,6 @@ public class Student3 {
     }
 
     public void display() {
-        
+
     }
 }
