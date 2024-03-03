@@ -2,11 +2,24 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+<<<<<<< HEAD
+        <group/>
+=======
         <group>
-            <file>file:/D:/PRO192/SE18C01_PRO192/QE180147_NGUYENTHIMYNU/src/baitap/checksum.java</file>
-            <file>file:/D:/PRO192/SE18C01_PRO192/QE180147_NGUYENTHIMYNU/src/baitap/continuedFraction.java</file>
-            <file>file:/D:/PRO192/SE18C01_PRO192/QE180147_NGUYENTHIMYNU/src/Inheritance4/Student.java</file>
-            <file>file:/D:/PRO192/SE18C01_PRO192/QE180147_NGUYENTHIMYNU/src/baitap/clockRadian.java</file>
+            <file>file:/D:/PRO192/SE18C01_PRO192/QE180147_NGUYENTHIMYNU/src/Relationships/Triangle.java</file>
+            <file>file:/D:/PRO192/SE18C01_PRO192/QE180147_NGUYENTHIMYNU/src/Relationships/PolyLine.java</file>
+            <file>file:/D:/PRO192/SE18C01_PRO192/QE180147_NGUYENTHIMYNU/src/Relationships/Point1.java</file>
+            <file>file:/D:/PRO192/SE18C01_PRO192/QE180147_NGUYENTHIMYNU/src/Relationships/Book.java</file>
+            <file>file:/D:/PRO192/SE18C01_PRO192/QE180147_NGUYENTHIMYNU/src/Relationships/bai2.java</file>
+            <file>file:/D:/PRO192/SE18C01_PRO192/QE180147_NGUYENTHIMYNU/src/Relationships/Author.java</file>
+            <file>file:/D:/PRO192/SE18C01_PRO192/QE180147_NGUYENTHIMYNU/src/Relationships/bai4.java</file>
+            <file>file:/D:/PRO192/SE18C01_PRO192/QE180147_NGUYENTHIMYNU/src/Relationships/bai5.java</file>
+            <file>file:/D:/PRO192/SE18C01_PRO192/QE180147_NGUYENTHIMYNU/src/Relationships/bai1.java</file>
+            <file>file:/D:/PRO192/SE18C01_PRO192/QE180147_NGUYENTHIMYNU/src/Relationships/Invoice.java</file>
+            <file>file:/D:/PRO192/SE18C01_PRO192/QE180147_NGUYENTHIMYNU/src/Relationships/Point.java</file>
+            <file>file:/D:/PRO192/SE18C01_PRO192/QE180147_NGUYENTHIMYNU/src/Relationships/bai3.java</file>
+            <file>file:/D:/PRO192/SE18C01_PRO192/QE180147_NGUYENTHIMYNU/src/Relationships/Customer.java</file>
         </group>
+>>>>>>> 4947b46f282c38f9390fb2f7b16b8b4e786f751c
     </open-files>
 </project-private>
