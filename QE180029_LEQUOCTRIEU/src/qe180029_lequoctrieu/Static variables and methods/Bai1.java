@@ -25,7 +25,7 @@ class Math{
         return x-y;
     }
     
-    public static int min(int x,int y){
+    public static int min(double x, double y){
         if(x<y){
             return x;
         }else{
@@ -45,6 +45,14 @@ class Math{
             s=s*x;
         }
         return s;
+    }
+
+    static double toRadians(double angle) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    static double toRadians(double angle) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 }
 
