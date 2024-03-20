@@ -7,6 +7,8 @@ import java.util.Scanner;
 
 public class Teacher {
     static public int dem;
+
+   
     private int id = ++dem;
     private String fullname;
     private String hometown;
@@ -100,12 +102,12 @@ public class Teacher {
         this.birthDate = birthDate;
     }
 
-   // public void display() {
-      //  System.out.println("Id: " + id);
-      //  System.out.println("Ten: " + fullname);
-       // System.out.println("gioi tinh: " + gender);
-       // System.out.println("dia chi: " + hometown);
-       // System.out.println("ngay thang nam sinh: " + birthDate.format(DateTimeFormatter.ofPattern(DATE_FORMAT)));
-   // }
+   public void display() {
+       System.out.println("Id: " + id);
+       System.out.println("Ten: " + fullname);
+        System.out.println("gioi tinh: " + gender);
+        System.out.println("dia chi: " + hometown);
+        System.out.println("ngay thang nam sinh: " + birthDate.format(DateTimeFormatter.ofPattern(DATE_FORMAT)));
+    }
 
 }
