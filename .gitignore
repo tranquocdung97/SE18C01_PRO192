@@ -120,6 +120,10 @@
 /JavaApplication10/dist/
 =======
 >>>>>>> ce265c451fb84354fde846fd15c35c8523ff6a04
+<<<<<<< HEAD
+/JavaApplication8/nbproject/private/
+/JavaApplication8/build/
+=======
 /test_1/nbproject/private/
 =======
 */target/
@@ -141,3 +145,4 @@
 /QE170229_NguyenVanLong/Object Oriented-Programming in Java/Polymorphism and abstraction/nbproject/private/
 /QE170229_NguyenVanLong/Object Oriented-Programming in Java/Polymorphism and abstraction/build/
 /QE170229_NguyenVanLong/Object Oriented-Programming in Java/Relationships/nbproject/private/
+>>>>>>> d36bda90712cee3fc6c7e5a4f1508042226eeea8
