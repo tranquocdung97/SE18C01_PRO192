@@ -21,6 +21,7 @@ public class TeacherManager {
         this.list.addAll(Arrays.asList(list));
     }
 //xuat
+
     public void showAllTeachers() {
 //        for (giangvien item : list) {
 //            item.display();
@@ -35,6 +36,7 @@ public class TeacherManager {
         this.list.removeIf(s -> s.getId() == id);
     }
 // cap nhat
+
     public void update(int id) {
         for (Teacher u : list) {
             if (u.getId() == id) {
@@ -42,6 +44,7 @@ public class TeacherManager {
             }
         }
     }
+
     public void Menu() {
         int choice;
         do {
@@ -69,11 +72,12 @@ public class TeacherManager {
                     System.out.println("\nXoa giang vien thanh cong!");
                     break;
                 }
-                case 3:{
-                   System.out.println("Nhap Id can cap nhat");
-                    int id = sc.nextInt(); 
+                case 3: {
+                    System.out.println("Nhap Id can cap nhat");
+                    int id = sc.nextInt();
                     update(id);
                     System.out.println("\n Cap nhat  thanh cong!");
+                    System.out.println("----------------------------------------");
                     break;
                 }
                 case 4: {
