@@ -11,7 +11,7 @@ package Classes_Objects;
  */
 public class Exercise6 {
     private double radius;
-    public Circle(double radius)
+    public Exercise6(double radius)
     {
         this.radius = radius;
     }

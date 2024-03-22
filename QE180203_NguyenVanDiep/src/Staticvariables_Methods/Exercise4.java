@@ -12,22 +12,22 @@ package Staticvariables_Methods;
 public class Exercise4 {
     private String name;
     private char gender;
-    public Student()
+    public Exercise4()
     {
         name = "Unknown";
         gender = 'u';
     }
-    public Student(String name)
+    public Exercise4(String name)
     {
         this.name = name;
         this.gender = 'u';
     }
-    public Student(char gender)
+    public Exercise4(char gender)
     {
         this.name = "Unknown";
         this.gender = gender;
     }
-    public Student(String name, char gender)
+    public Exercise4(String name, char gender)
     {
         this.name = name;
         this.gender = gender;
