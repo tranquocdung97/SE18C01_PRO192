@@ -13,7 +13,7 @@ public class Exercise5 {
     private String name;
     private String address;
     private double gpa;
-    public Student(String name, String address, double gpa)
+    public Exercise5(String name, String address, double gpa)
     {
         this.name = name;
         this.address = address;

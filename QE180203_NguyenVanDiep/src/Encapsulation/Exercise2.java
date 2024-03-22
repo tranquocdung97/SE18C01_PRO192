@@ -12,11 +12,10 @@ package Encapsulation;
 public class Exercise2 {
     private double length;
     private double width;
-    public Rectangle()
-    {
+    public Exercise2() {
 
     }
-    public Rectangle(double length, double width)
+    public Exercise2(double length, double width)
     {   
         this.length = length;
         this.width = width;
