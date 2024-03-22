@@ -5,6 +5,8 @@
  */
 package Encapsulation;
 
+import java.awt.Point;
+
 /**
  *
  * @author ADMIN
@@ -12,11 +14,11 @@ package Encapsulation;
 public class Exercise7 {
     private double x;
     private double y;
-    public Point()
+    public Exercise7()
     {
 
     }
-    public Point(double x, double y)
+    public Exercise7(double x, double y)
     {
         this.x = x;
         this.y = y;
