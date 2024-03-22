@@ -9,10 +9,10 @@ package Inheritance;
  *
  * @author ADMIN
  */
-class Person {
+class Person2 {
     private String name;
     private String gender;
-    public Person(String name, String gender) {
+    public Person2(String name, String gender) {
         this.name = name;
         this.gender = gender;
     }
@@ -33,7 +33,7 @@ class Person {
         System.out.println("Gender: " + gender);
     }
 }
-class Student extends Person {
+class Student extends Person2 {
     private int salary;
     public Student(String name, String gender, int salary)
     {

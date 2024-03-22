@@ -13,6 +13,10 @@ import java.util.Scanner;
 class Student{
     String name;
     int age;
+
+    Student(String tuan, int i) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     public void getInformation()
     {
         Scanner sc = new Scanner(System.in);

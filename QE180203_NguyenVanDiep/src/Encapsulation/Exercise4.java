@@ -14,7 +14,7 @@ public class Exercise4 {
     private String firstName;
     private String lastName;
     private int salary;
-    public Employee(int id, String firstName, String lastName, int salary)
+    public Exercise4(int id, String firstName, String lastName, int salary)
     {
         this.id = id;
         this.firstName = firstName;
