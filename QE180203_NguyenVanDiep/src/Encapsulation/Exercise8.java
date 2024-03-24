@@ -13,12 +13,12 @@ public class Exercise8 {
     private int id;
     private String name;
     private int balance = 0;
-    public Account(int id, String name)
+    public Exercise8(int id, String name)
     {
         this.id = id;
         this.name = name;
     }
-    public Account(int id, String name, int balance)
+    public Exercise8(int id, String name, int balance)
     {
         this.id = id;
         this.name = name;

@@ -15,11 +15,11 @@ public class Exercise3 {
     private int age;
     private String address;
     private int score;
-    public Student()
+    public Exercise3()
     {
 
     }
-    public Student(int id, String name, int age, String address, int score)
+    public Exercise3(int id, String name, int age, String address, int score)
     {
         this.id = id;
         this.name = name;

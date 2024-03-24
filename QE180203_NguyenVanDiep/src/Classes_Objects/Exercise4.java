@@ -12,16 +12,13 @@ package Classes_Objects;
 public class Exercise4 {
     private String name;
     private int age;
-    public Student()
-    {
+    public Exercise4() {
 
     }
-    public void getInformation()
-    {
+    public void getInformation() {
 
     }
-    public void display()
-    {
+    public void display() {
         
     }
 }

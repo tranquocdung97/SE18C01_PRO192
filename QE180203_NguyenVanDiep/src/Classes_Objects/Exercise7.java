@@ -9,10 +9,10 @@ package Classes_Objects;
  *
  * @author ADMIN
  */
-class Student {
+class Student2 {
     String name;
     int age;
-    public Student(String name, int age)
+    public Student2(String name, int age)
     {
         this.name = name;
         this.age = age;
@@ -25,10 +25,10 @@ class Student {
 }
 public class Exercise7 {
     public static void main(String[] args) {
-        Student[] students = new Student[3];
-        students[0] = new Student("Tuan", 24);
-        students[1] = new Student("Cuong", 25);
-        students[2] = new Student("Duc", 24);
+        Student2[] students = new Student2[3];
+        students[0] = new Student2("Tuan", 24);
+        students[1] = new Student2("Cuong", 25);
+        students[2] = new Student2("Duc", 24);
         for (int i = 0; i < 3; i++)
             students[i].display();
     }

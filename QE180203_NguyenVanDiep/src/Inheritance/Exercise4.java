@@ -12,7 +12,7 @@ package Inheritance;
 public class Exercise4 {
     private String name;
     private int salary;
-    public Employee(String name, int salary)
+    public Exercise4(String name, int salary)
     {
         super();
         this.name = name;

@@ -13,7 +13,7 @@ public class Exercise6 {
     private int hour;
     private int minute;
     private int second;
-    public Time(int hour, int minute, int second)
+    public Exercise6(int hour, int minute, int second)
     {
         this.hour = hour;
         this.minute = minute;

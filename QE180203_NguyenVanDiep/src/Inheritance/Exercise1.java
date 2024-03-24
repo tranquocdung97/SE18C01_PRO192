@@ -5,6 +5,8 @@
  */
 package Inheritance;
 
+import javax.lang.model.SourceVersion;
+
 /**
  *
  * @author ADMIN
@@ -49,7 +51,7 @@ class Student extends Person {
     {
         this.gpa = gpa;
     }
-}
+    }
 public class Exercise1 {
     public static void main(String[] args) {
         Student s = new Student("Hai", 1999, 8.8);
